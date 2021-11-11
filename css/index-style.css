@@ -1,0 +1,571 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    margin: 0%;
+    background-color: #f2f3ec;
+    font-family: canada-type-gibson,sans-serif;
+    color: #2a2a2a;
+    
+}
+
+.wrapper {
+  max-width: 1920px;
+  margin: auto;
+}
+
+
+.headerimg {
+    width: 100%;
+    max-width: 1920px;
+    position:absolute;
+    margin: 0%;
+    z-index: -100;  
+}
+
+.storimg {
+  display: none;
+}
+
+.logo {
+    width: 70%;
+    display: block;
+    padding-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+    
+}
+
+.start {
+  cursor: pointer;
+  width: 20%;
+  position:relative;
+    bottom: 6em;
+    padding: 1%;
+    border: #96cc6a solid 4px;
+    border-radius: 10px;
+    background:none;
+    font-size: 1.2em;
+    font-family: canada-type-gibson,sans-serif;
+    color: #2a2a2a;
+}
+
+h2 {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5em;
+    text-align: center;
+    margin-top: 0%;
+    padding-top: 25%;
+    padding-bottom: 5%;
+   
+}
+
+.flex {
+    margin-top: 2%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.bob {
+    width: 10%;
+    position: relative;
+    right: 10em;
+    
+}
+
+.arrow {
+    width: 10%;
+    transform: scale(0.5);
+    position: relative;
+    right: 8em;
+    bottom: 1em;
+}
+
+.bobtekst {
+    width: 10%;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.4em;
+    transform: rotate(-8deg);
+    margin: 0%;
+    margin-left: 65%;
+
+}
+
+.shake-bottom {
+	-webkit-animation: shake-bottom 5s cubic-bezier(0.455, 0.030, 0.515, 0.955) 2s both;
+	        animation: shake-bottom 5s cubic-bezier(0.455, 0.030, 0.515, 0.955) 2s both;
+          animation-iteration-count:infinite;
+}
+
+/* HER STARTER SIDE 2 MED PRMOVIDEO*/
+
+h3 {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4em;
+    text-align: center;
+    width: 100%;
+}
+
+
+
+.mellemtekst {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5em;
+    text-align: center;
+    width: 100%;
+    margin: 20%;
+    margin-top: 1%;
+    margin-bottom: 10%;
+}
+
+.flex2 {
+    width: 100%;
+    padding-top: 10%;
+    margin-bottom: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content:center;
+}
+
+.linjeflex {
+    width: 100%;
+}
+
+.linje {
+    width: 100%;
+}
+
+.flexbob {
+    width: 25%;
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+.frugt {
+  width: 100%;
+}
+
+.broccoli {
+  width: 100%;
+  display: flex;
+}
+
+.peber {
+  width: 60%;
+  opacity: 80%;
+  position: relative;
+  transform: rotate(-15deg);
+  bottom: 10em;
+}
+
+.bobtekst2 {
+    width: 40%;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.4em;
+    height:fit-content;
+    transform: rotate(5deg);
+    padding-top: 5%;
+    position: relative;
+    right: 2em;
+    bottom: 1em;
+
+}
+
+.arrow2 {
+    width: 20%;
+    height:fit-content;
+    transform: rotateY(180deg);
+    position: relative;
+    right: 1em;
+    top: 4em;
+}
+
+.bob2 {
+    width: 40%;
+    height:fit-content;
+    margin-left: 2%;
+}
+
+.video {
+    width: 65%;
+}
+
+.shake-top {
+	-webkit-animation: shake-top 5s cubic-bezier(0.455, 0.030, 0.515, 0.955) 2s both;
+	        animation: shake-top 5s cubic-bezier(0.455, 0.030, 0.515, 0.955) 2s both;
+          animation-iteration-count: infinite;
+}
+
+/* Progress bar */
+
+.ulbar {
+    width: 5%;
+    list-style-type: none;
+    position: fixed;
+    padding: 1%;
+    padding-right: 0%;
+    margin-right: 0%;
+    right: -2%;
+    top: 20%;
+    background-color: #f2f3ec;
+    border-top: black solid 1px;
+    border-left: black solid 1px;
+    border-bottom: black solid 1px;
+    border-radius: 50px 0px 0px 50px;
+}
+
+.progressbar {
+    width: 50%;
+    padding-bottom: 20%;
+    margin: 0%;
+}
+
+/*SIDE 3 STARTER HER MED VÆLG EN RET*/
+
+h3 {
+    font-family: canada-type-gibson,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4em;
+    text-align: center;
+    width: 100%;
+    margin-top: 0%;
+}
+
+.flex3 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.tallerknerflex {
+    width: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content: center;
+}
+
+
+.tallerken {
+    width: 15%;
+    margin: 2%;
+    border: #96cc6a solid 4px;
+    border-radius: 10px;
+    padding: 2%;
+    background: none;
+}
+
+.tallerken:hover {
+    cursor: pointer;
+    border: #0e9749  solid 4px;
+}
+
+.output {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2em;
+    text-align: center;
+    width: 100%;
+    position:relative;
+    bottom: 6em;
+}
+
+.valg {
+    border: #0e9749 solid 4px;
+}
+
+.tallerkenimg {
+    width: 100%;
+}
+
+.flexbob3 {
+    margin-top: 2%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    width: 25%;
+    display: flex;
+}
+
+.bobtekst3 {
+    width: 40%;
+    font-family: canada-type-gibson,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.4em;
+    transform: rotate(-5deg);
+    padding-top: 5%;
+    position: relative;
+    left: 4em;
+    bottom: 1em;
+
+}
+
+.arrow3 {
+    width: 20%;
+    height:fit-content;
+    position: relative;
+    left: 1em;
+    top: 4em;
+}
+
+.bob3 {
+    width: 40%;
+    height:fit-content;
+    margin-left: 2%;
+}
+
+.knapdiv {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.knap {
+  width: 20%;
+  position:relative;
+    bottom: 8em;
+    padding: 1%;
+    border: #96cc6a solid 4px;
+    border-radius: 10px;
+    background:none;
+    font-size: 1.2em;
+    font-family: canada-type-gibson,sans-serif;
+    color: #2a2a2a;
+    display: none;
+}
+
+.synlig {
+  display: inline;
+}
+
+.knap:hover {
+  cursor: pointer;
+    border: #0e9749  solid 4px;
+}
+
+
+/* Denne class tilføjes når progresspunktet er synsfeltet og skal blive større*/
+.inview { 
+    -webkit-animation: scale-up-center 0.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) 2s both;
+	        animation: scale-up-center 0.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) 2s both;
+}
+
+.scale {
+    transform: scale(1.5);
+}
+
+
+
+/* ----------------------------------------------
+ * Generated by Animista on 2021-11-4 16:28:39
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation shake-bottom
+ * ----------------------------------------
+ */
+ @-webkit-keyframes shake-bottom {
+    0%,
+    100% {
+      -webkit-transform: rotate(0deg);
+              transform: rotate(0deg);
+      -webkit-transform-origin: 50% 100%;
+              transform-origin: 50% 100%;
+    }
+    2% {
+      -webkit-transform: rotate(2deg);
+              transform: rotate(2deg);
+    }
+    4%,
+    8%,
+    12% {
+      -webkit-transform: rotate(-4deg);
+              transform: rotate(-4deg);
+    }
+    6%,
+    10%,
+    14% {
+      -webkit-transform: rotate(4deg);
+              transform: rotate(4deg);
+    }
+    16% {
+      -webkit-transform: rotate(-2deg);
+              transform: rotate(-2deg);
+    }
+    18% {
+      -webkit-transform: rotate(2deg);
+              transform: rotate(2deg);
+    }
+  }
+  @keyframes shake-bottom {
+    0%,
+    100% {
+      -webkit-transform: rotate(0deg);
+              transform: rotate(0deg);
+      -webkit-transform-origin: 50% 100%;
+              transform-origin: 50% 100%;
+    }
+    4% {
+      -webkit-transform: rotate(2deg);
+              transform: rotate(2deg);
+    }
+    4%,
+    8%,
+    12% {
+      -webkit-transform: rotate(-4deg);
+              transform: rotate(-4deg);
+    }
+    6%,
+    10%,
+    14% {
+      -webkit-transform: rotate(4deg);
+              transform: rotate(4deg);
+    }
+    16% {
+      -webkit-transform: rotate(-2deg);
+              transform: rotate(-2deg);
+    }
+    18% {
+      -webkit-transform: rotate(2deg);
+              transform: rotate(2deg);
+    }
+  }
+  
+  /* ----------------------------------------------
+ * Generated by Animista on 2021-11-4 17:36:36
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation scale-up-center
+ * ----------------------------------------
+ */
+@-webkit-keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  @keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  
+  /* ----------------------------------------------
+ * Generated by Animista on 2021-11-7 17:46:7
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation shake-top
+ * ----------------------------------------
+ */
+@-webkit-keyframes shake-top {
+    0%,
+    100% {
+      -webkit-transform: rotate(0deg);
+              transform: rotate(0deg);
+      -webkit-transform-origin: 50% 0;
+              transform-origin: 50% 0;
+    }
+    2% {
+      -webkit-transform: rotate(2deg);
+              transform: rotate(2deg);
+    }
+    4%,
+    8%,
+    12% {
+      -webkit-transform: rotate(-4deg);
+              transform: rotate(-4deg);
+    }
+    6%,
+    10%,
+    14% {
+      -webkit-transform: rotate(4deg);
+              transform: rotate(4deg);
+    }
+    16% {
+      -webkit-transform: rotate(-2deg);
+              transform: rotate(-2deg);
+    }
+    18% {
+      -webkit-transform: rotate(2deg);
+              transform: rotate(2deg);
+    }
+  }
+  @keyframes shake-top {
+    0%,
+    100% {
+      -webkit-transform: rotate(0deg);
+              transform: rotate(0deg);
+      -webkit-transform-origin: 50% 0;
+              transform-origin: 50% 0;
+    }
+    2% {
+      -webkit-transform: rotate(2deg);
+              transform: rotate(2deg);
+    }
+    4%,
+    8%,
+    12% {
+      -webkit-transform: rotate(-4deg);
+              transform: rotate(-4deg);
+    }
+    6%,
+    10%,
+    14% {
+      -webkit-transform: rotate(4deg);
+              transform: rotate(4deg);
+    }
+    16% {
+      -webkit-transform: rotate(-2deg);
+              transform: rotate(-2deg);
+    }
+    18% {
+      -webkit-transform: rotate(2deg);
+              transform: rotate(2deg);
+    }
+  }
+  
+  @media only screen and (min-width: 1920px) {
+    .headerimg {
+      display: none;
+    }
+    .storimg {
+      display: block;
+      width: 100%;
+    max-width: 1920px;
+    position:absolute;
+    margin: 0%;
+    z-index: -100;  
+    }
+  }

@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/reset.css" rel="reset">
+    <link href="css/index-style.css" rel="stylesheet">
+    <link href="css/spisesal.css" rel="stylesheet">
+    <link href="css/interview.css" rel="stylesheet">
+    <link href="css/tidslinje.css" rel="stylesheet">
+    <link href="css/afslutning.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/gbs2mod.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.js"></script>
+
+    <title>Klank efterskole | Køkken og kost</title>
+</head>
+
+<body class="wrapper">
+    <header>
+        <img src="images/forsidelille.png" class="headerimg" alt="Klank efterskole header">
+        <img src="images/forside.png" class="storimg" alt="klank efterskole header">
+        <h2>HJERTET AF EFTERSKOLEN</h2>
+        <div class="knapdiv">
+            <button onclick="document.location='#side2'" class="start" type="button" id="start">Tryk her for at starte</button>
+    </div>
+        <div class="flex">
+        <p class="bobtekst">Følg med mig!</p>
+        <img src="images/arrow.png" alt="pil" class="arrow">
+        <img src="images/broccoli-bob.png" alt="Broccoli bob forklarer" class="bob shake-bottom"> 
+    </div>
+    
+    </header>
+    <main>
+
+    <!-- HER STARTER SIDE 2 - PROMOVIDEO  -->
+        <div class="flex2" id="side2">
+          <div class="flexbob">
+              <div class="frugt">
+            <img src="images/peber.png" alt="peberfrugt illustration" class="peber">
+        </div>
+        <div class="broccoli">
+            <img src="images/broccoli-bob.png" alt="Broccoli bob forklarer" class="bob2" id="bob2">
+            <img src="images/arrow.png" alt="pil" class="arrow2">
+            <p class="bobtekst2">Kom med i køkkenet!</p>
+        </div>
+            </div>
+        <video src="images/kepromo.mp4" id="video" class="video"> </video> 
+    </div>
+          
+
+        <!-- HER STARTER SIDE 3 - MADPLAN  -->
+    <div class="flex3" id="side3">
+        <div class="linjeflex">
+            <img src="images/redskaber.png" alt="køkkenredskaber" class="linje">
+        </div>
+        <h3>Hvad skal vi lave til middag i dag?</h3>
+
+        <div class="tallerknerflex">
+            <button class="tallerken" id="gris" type="submit"><img src="images/gris.png" alt="mad" class="tallerkenimg"></button>
+            <button class="tallerken" id="fisk" type="submit"><img src="images/fisk.png" alt="mad" class="tallerkenimg"></button>
+            <button class="tallerken" id="ko" type="submit"><img src="images/ko.png" alt="mad" class="tallerkenimg"></button>
+            <button class="tallerken" id="kylling" type="submit"><img src="images/kylling.png" alt="mad" class="tallerkenimg"></button>
+            <button class="tallerken" id="vegetar" type="submit"><img src="images/vegetar.png" alt="mad" class="tallerkenimg"></button>
+        </div>
+            
+
+        <div class="flexbob3">
+            <p class="bobtekst3">Du må helt selv vælge!</p>
+            <img src="images/arrow.png" alt="pil" class="arrow3">
+            <img src="images/broccoli-bob.png" alt="Broccoli bob forklarer" class="bob3" id="bob3">
+        </div>
+
+        <div class="output" id="output"></div>
+        <div class="knapdiv">
+                <button onclick="document.location='#side4'" class="knap" type="button" id="knap">Klar til at spise?</button>
+        </div>
+    </div>
+
+   <!-- HER STARTER SIDE 4 - SPISESALEN  -->
+
+   <div class="flex4" id="side4">
+    <div class="brocolli-bobflex" id="bb">
+        <img src="images/broccoli-bob.png" class="bob4" alt="Broccoli bob guider brugeren" id="bob4">
+        <img src="images/arrow.png" alt="Pil til tekst" class="arrow4">
+        <p class="bobtekst4">Sæt dig i spisesalen og vær en del af fælleskabet!</p>
+    </div>
+    <div class="spisesal" id="spislyd">
+        <img src="images/spisesal.png" class="illuspisesal"
+            alt="Illustration af spisesalen på Klank Efterskole">
+    </div>
+    <div class="knaptilvideo">
+        <button class="styleb" id="myBtn">360°</button>
+    </div>
+    <div id="myModal" class="modal">
+        <div class="modal-content" id="baggrund">
+            <div class="modal-body">
+                <span class="close">&times;</span>
+                <div class="styleinside">
+                    <div id="panorama"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+ <!-- HER STARTER SIDE 5 - TIDSLINJEN  -->
+
+ <div class="side5" id="side5">
+    <div class="overskrift5">
+        <h1 class="h1tidslinje">Tak for mad! Nu skal vi videre..</h1>
+    </div>
+    <section class="timeline">
+        <ul class="ultidslinje">
+            <li>
+                <div>
+                    <time>13:00</time>
+                    <p class="tidslinje">Spisepausen er ovre... Tag forklædet på!<br> Kom med i køkkenet og hjælp med at vaske op </p>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <time>14:30</time>
+                    <p class="tidslinje">Mhh, nu trænger sulten sig på. Det er tid til overlevelse, nu skal vi have boller og frugt på bordet. </p>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <time>17:00</time>
+                    <p class="tidslinje">Nu begynder den store sult at nærme sig. Vi skal i køkkenet igen, vi skal forberede aftensmaden! </p>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <time>18:15</time>
+                    <p class="tidslinje">Det kolde buffetbord er klar til servering. Alle er samlet i spisesalen og vi er nu klar til at spise aftensmad!</p>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <time>18:45</time>
+                    <p class="tidslinje">Sådan en omgang kræver en opvask, vi skal i køkkenet igen. Grib forklædet, lad os komme igang!</p>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <time>20:30</time>
+                    <p class="tidslinje">Køkkenet kalder igen, vi skal forberede dagens sidste snack. </p>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <time>21:00</time>
+                    <p class="tidslinje">Sikke en god dag, med en masse lækker mad. Vi slutter lige dagen af med en aftensnack. Så lukker og slukker vi for i dag. Tak for hjælpen og sov godt. </p>
+                </div>
+            </li>
+
+        </ul>
+    </section>
+</div>
+
+ <!-- HER STARTER SIDE 6 - INTERVIEW -->
+
+ <img src="images/knive.png" alt="køkkenredskaber illustration" class="knive">
+
+ <div class="flex6" id="side6">
+    <div class="brocolli-bobflex">
+        <img src="images/broccoli-bob.png" class="bob6" alt="Broccoli bob guider brugeren">
+        <img src="images/arrow.png" alt="Pil til tekst" class="arrow6">
+        <p class="bobtekst6">Hør hvad de andre elever har at sige om køkkenet</p>
+    </div>
+    <div class="interview">
+        <video src="images/interview.mp4" class="interviewvideo" id="interviewvideo"> </video>
+
+    </div>
+
+    
+
+    <section class="slideshow">
+        <div class="citater">
+            <p class="slideshowet">"Jeg syntes det var hyggeligt at kunne stå og være med til at lave noget, som
+                hele skolen skulle have." <br><br> - Amalie, 15 år</p>
+            <p class="slideshowet">"Jeg tror køkkentjansen er til for at lære os at blive mere struktureret og
+                for at lære, at lave mad."<br><br> - Adam, 16 år </p>
+            <p class="slideshowet">"Det var hyggeligt at lave mad med mine venner, og samtidig have en
+                indflydelse på hvad vi spiser." <br><br> - Sophie, 16 år </p>
+            <p class="slideshowet">"Jeg forventede maden var god, og det var den." <br><br> - Andreas, 16 år</p>
+            <p class="slideshowet">"Min livret er når vi får fødselsdagsmenu. Det er her, at vi får lov til at
+                være med til at bestemme." <br><br> - Luna, 17 år</p>
+        </div>
+    </section>
+</div>
+
+    <!-- HER STARTER SIDE 7 - AFSLUTNING  -->
+<div class="flex7" id="side7">
+    <img src="images/kokken.png" class="kokken" alt="illustration">
+
+<div class="flexbob7">
+    <p class="bobtekst7">Tak for dit bidrag i køkkenet!</p>
+    <img src="images/arrow.png" alt="Pil til tekst" class="arrow7">
+    <img src="images/broccoli-bob.png" class="bob7" alt="Broccoli bob guider brugeren" id="bob7">
+</div>
+
+<div class="farvel">
+    <p class="farveltekst">Vi håber på at se dig igen på</p>
+    <a href="https://klank-efterskole.dk"><img src="images/logoke.png" class="farvellogo" id="farvellogo" alt="logo"></a>
+</div>
+
+</div>
+
+    <!-- HER STARTER PROGRESSBAR  -->
+    <ul class="ulbar">
+        <li><a href="#side2"><img src="images/jordbaer.png" class="progressbar" id="2" alt="Frugt og bær progressbar"></a></li>
+        <li><a href="#side3"><img src="images/peach.png" class="progressbar" id="3" alt="Frugt og bær progressbar"></a></li>
+        <li><a href="#side4"><img src="images/vandmelon.png" class="progressbar" id="4" alt="Frugt og bær progressbar"></a></li>
+        <li><a href="#side5"><img src="images/apple.png" class="progressbar" id="5" alt="Frugt og bær progressbar"></a></li>
+        <li><a href="#side6"><img src="images/grape.png" class="progressbar" id="6" alt="Frugt og bær progressbar"></a></li>
+        <li><a href="#side7"><img src="images/banan.png" class="progressbar" id="7" alt="Frugt og bær progressbar"></a></li>
+    </ul>
+
+    </main>
+    <script src="javascript/index-java.js"></script>
+    <script src="javascript/360video.js"></script>
+    <script src="javascript/baggrundslyd.js"></script>
+    <script src="javascript/interview.js"></script>
+    <script src="javascript/java.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,84 @@
+.flex6 {
+    width: 100%;
+    margin-top: 0%;
+    margin-bottom: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.brocolli-bobflex {
+    width: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 16em;
+}
+
+
+.arrow6 {
+    width: 20%;
+    height: fit-content;
+    transform: rotateY(180deg);
+    position: relative;
+    right: 1em;
+    top: 1em;
+}
+
+.bob6 {
+    width: 35%;
+    position: relative;
+    transform: rotate(6deg);
+    height: fit-content;
+    bottom: 0em;
+    right: 2em;
+}
+
+.bobtekst6 {
+    width: 50%;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.4em;
+    transform: rotate(5deg);
+    padding-top: 5%;
+    padding-bottom: 5%;
+    position: relative;
+    left: 4em;
+    bottom: 12em;
+    z-index: 100;
+
+}
+
+.interviewvideo {
+    width: 100%;
+    padding-bottom: 10%;
+}
+
+.interview {
+    width: 75%;
+    position: relative;
+    right: 5em;
+}
+
+.slideshow {
+    height: 150px;
+    position: relative;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 0%;
+    font-size: 2.0em;
+}
+
+.slideshowet {
+    border: black 1px solid;
+    border-radius: 50px;
+    padding: 1.5em;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: none;
+}
+
+.knive {
+    width: 100%;
+}
